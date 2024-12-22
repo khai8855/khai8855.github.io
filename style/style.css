@@ -1,0 +1,327 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(5, 17, 56);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* header */
+nav {
+  display: flex;
+  background-color: rgb(31, 31, 37);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav .logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 30px;
+}
+
+nav .logo span {
+  color: rgb(45, 96, 236);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 900;
+}
+
+nav .navbar ul {
+  display: flex;
+}
+
+nav .navbar ul li {
+  list-style: none;
+}
+
+nav .navbar ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0px 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav .navbar ul li a:hover {
+  color: rgb(19, 65, 216);
+}
+/* end header */
+
+/* home */
+.home {
+  display: flex;
+  background-color: rgb(31, 31, 37);
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+
+.home-content h1 {
+  font-size: 50px;
+  color: white;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.home-content span {
+  color: rgb(45, 96, 236);
+}
+
+.home-content h3 {
+  font-size: 40px;
+  color: white;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  padding-bottom: 40px;
+}
+
+.social-media a {
+  color: rgb(45, 96, 236);
+  height: 80px;
+  padding: 7px 10px;
+  border: 2px solid rgb(45, 96, 236);
+  border-radius: 100%;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.social-media a:hover {
+  background-color: rgb(232, 220, 235);
+}
+
+.home-content button {
+  color: white;
+  background-color: rgb(45, 96, 236);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+/* home end */
+
+/* about */
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(35, 36, 44);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.about-content .about-img img {
+  width: 300px;
+  margin: 0px 50px;
+}
+
+.about-content .about-text h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.about-content .about-text h1 span {
+  color: rgb(45, 96, 236);
+}
+
+.about-content .about-text p {
+  color: white;
+  font-size: 15px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.about-text button {
+  color: white;
+  background-color: rgb(45, 96, 236);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+/* about end */
+
+/* services  */
+.services {
+  background-color: rgb(31, 31, 37);
+}
+
+.services h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-top: 100px;
+}
+
+.services h1 span {
+  color: rgb(19, 65, 216);
+}
+
+.box-services {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+  color: aliceblue;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.box-services .box {
+  margin: 20px;
+  border: 2px solid rgb(65, 97, 243);
+  border-radius: 20px;
+  padding: 60px 40px;
+  background-color: rgb(35, 36, 44);
+  width: 400px;
+  color: rgb(49, 89, 221);
+}
+
+.box-services .box .box-icon {
+  font-size: 100px;
+  text-align: center;
+}
+
+.box-services .box h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: -110px;
+  margin-bottom: 20px;
+}
+
+.box-services .box p {
+  color: rgb(185, 178, 178);
+  text-align: center;
+  font-size: 17px;
+}
+/* services end */
+
+/* portfolio */
+.portfolio {
+  background-color: rgb(35, 36, 44);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.portfolio h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.portfolio h1 span {
+  color: rgb(19, 65, 216);
+}
+
+.portfolio .box-img {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box-img .portfolio-img img {
+  width: 380px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.box-img .portfolio-img img:hover {
+  /* border: 3px solid rgb(45, 70, 99); */
+  box-shadow: 2px 2px 10px 10px rgb(43, 118, 148);
+}
+/* portfolio end */
+
+/* contact */
+.contact{
+    background-color: rgb(31, 31, 37);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact h1 span{
+    color: rgb(19, 65, 216);
+}
+
+.form-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact form {
+    background-color: rgb(35, 36, 44);
+    width: 560px;
+    height: 400px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.contact form input{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.contact form input::placeholder{
+    color: rgb(93, 79, 104);
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.contact form .text-message{
+    width: 400px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.contact form .text-message::placeholder{
+    color: rgb(93, 79, 104);
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.contact form button{
+    color: white;
+    background-color: rgb(45, 96, 236);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    margin-left: 390px;
+}
+/* contact end */
+
+footer{
+    background-color:  rgb(35, 36, 44);
+     /* height: 30PX; */
+     text-align: center;
+     color: #f5f5f5;
+     font-size: 16PX;
+     padding: 20px;
+   }
